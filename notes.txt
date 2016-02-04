@@ -1,0 +1,16 @@
+Some things I noticed while working with graphviz:
+I was reading the man page for dot and I realized the different methods of creating graphs that graphiz has are the ones we read about in the research paper.
+It's cool to utilize the methods the methods we just learned about even if we aren't coding them.
+circo is my favorite of the ones I tried and it isn't spring based, but I thought patchwork was also a cool way to show tree maps.
+
+
+tricks:
+subgraphs to visually separate sets of points(only works well in dot)
+polygons + distortion to create cool shapes
+you can define broad categories. Reminds me of CSS
+rankdir to specify directions
+shape can be user defined
+subdivide edges by creating fake vertices
+you can use clustering
+you can add images and add gradients
+sfdp for large graphs
